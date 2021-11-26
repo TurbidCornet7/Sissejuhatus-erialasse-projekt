@@ -1,0 +1,26 @@
+* {
+    margin: 10px;
+    font-family: Helvetica;
+}
+
+body {
+    padding: left 20px; ;
+    padding: right 20px;
+}
+header {
+    background-color: skyblue ;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+#pilt {
+    float: left;
+    width: 40%;
+}
+
+#tekst {
+    float: right;
+    width: 40%;
+}
