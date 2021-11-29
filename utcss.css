@@ -1,0 +1,41 @@
+* {
+    font-family: Helvetica;
+}
+
+#container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 250, 250, 0.75);
+    min-height: 100vh;
+}
+
+body {
+    background-image: url("Delta.jpg");
+    background-size: cover;
+}
+#header {
+    background-color: skyblue;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#pilt {
+    margin: auto;
+    float: left;
+}
+
+#tekst {
+    width: 400px;
+    margin: auto;
+    float: right;
+    text-align: left;
+}
+img {
+    width: 400px;
+}
+
+#container * {
+    padding: 5px;
+}
